@@ -39,7 +39,24 @@ Un mini CRM personnel pour gérer les candidatures envoyées, les offres à post
 
 ## Lancer le projet
 
+```bash
+# Cloner le projet
+git pull https://github.com/Heliote225/job-application-crm.git
+```
+
+```bash
+# Entrer dans le dossier du projet
+cd job-application-crm
+```
+
 ### Backend
+
+Ouvrir un premier terminal pour le backend puis exécuter les commandes suivantes :
+
+```bash
+# Entrer dans le dossier backend
+cd backend
+```
 
 ```bash
 # Créer un environnement virtuel
@@ -61,6 +78,8 @@ python manage.py runserver
 ```
 
 ### Frontend
+
+Ouvrir un second terminal pour le frontend puis exécuter les commandes suivantes :
 
 ```bash
 # Installer les dépendances
