@@ -51,3 +51,24 @@ pip install django djangorestframework
 
 # Lancer le serveur
 python manage.py runserver
+```
+
+### Frontend
+
+```bash
+# Installer les dépendances
+npm install
+
+# Lancer le front
+npm run dev
+```
+
+## A venir (améliorations possibles)
+- Authentification avec JWT
+- Filtres, recherche, pagination
+- Statistiques sur les candidatures
+- Notifications ou relances par email
+
+## Auteur
+
+Développé par Heliote ZAOULY - heliote.zaouly@gmail.com
