@@ -44,11 +44,18 @@ Un mini CRM personnel pour gérer les candidatures envoyées, les offres à post
 ```bash
 # Créer un environnement virtuel
 python -m venv env
-source env/bin/activate  # ou .\env\Scripts\activate sur Windows
+```
 
+```bash
+source env/bin/activate  # ou .\env\Scripts\activate sur Windows
+```
+
+```bash
 # Installer les dépendances
 pip install django djangorestframework
+```
 
+```bash
 # Lancer le serveur
 python manage.py runserver
 ```
@@ -58,7 +65,9 @@ python manage.py runserver
 ```bash
 # Installer les dépendances
 npm install
+```
 
+```bash
 # Lancer le front
 npm run dev
 ```
